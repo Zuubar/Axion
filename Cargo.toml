@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "axion-thread-pool",
+    "axion-json",
+    "axion-server",
+]

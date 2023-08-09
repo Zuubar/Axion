@@ -1,0 +1,11 @@
+[package]
+name = "axion-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axion-thread-pool = { path = "../axion-thread-pool" }
+axion-json = { path = "../axion-json" }
+axion-json-derive = { path = "../axion-json/axion-json-proc" }
